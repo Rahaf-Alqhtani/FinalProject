@@ -1,18 +1,32 @@
 {
   "dependencies": {
-    "apis1": {
+    "secrets1": {
       "restored": true,
-      "restoreTime": "2021-06-21T12:09:36.6040607Z"
+      "restoreTime": "2021-06-26T06:36:07.2126129Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2021-06-26T06:36:13.1354286Z"
     }
   },
   "parameters": {
-    "apis1.resourceGroupName": {
-      "Name": "apis1.resourceGroupName",
+    "secrets1.resourceGroupName": {
+      "Name": "secrets1.resourceGroupName",
       "Type": "resourceGroup",
       "Value": "RGTechMEDashboard"
     },
-    "apis1.subscriptionId": {
-      "Name": "apis1.subscriptionId",
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "1b3f86c6-3310-4505-b99d-f209b8a4494a"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "RGTechMEDashboard"
+    },
+    "secrets1.subscriptionId": {
+      "Name": "secrets1.subscriptionId",
       "Type": "subscription",
       "Value": "1b3f86c6-3310-4505-b99d-f209b8a4494a"
     }

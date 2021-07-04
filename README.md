@@ -17,7 +17,8 @@
 - HTML
 - CSS
 - JavaScript
-- -Bootstrap
+- Bootstrap
+- React Bootstrap
 ##  Back-End
 **Database**
 - SQL Server -code first Approch

@@ -5,30 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #17a2b8!important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-.nav{
-  margin-right: 10px !important;
-}
-.card{
-  border: none !important;
-  margin: 30px !important;
-  padding : 0 30px !important;
-}
-
-.card-header{
-  border: none !important;
-}
-
-.quote{
-  background-color: #fff;
-  padding: 100px;
-  border-radius: 20px;
-  margin: 100px 300px !important;
 }

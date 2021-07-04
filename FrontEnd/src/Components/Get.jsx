@@ -3,6 +3,9 @@ import axios from 'axios';
 import {useEffect,useState} from 'react';
 import  {Link} from  'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container'
+
 import {Trash2, PencilSquare} from 'react-bootstrap-icons'
 
 export default function Get() {
@@ -34,30 +37,30 @@ export default function Get() {
   
   }
     return (
-        <div>
+        <div className="quotes row">
               {list.map((m,i)=>{
     return(
-<div class="card cardOne">
-<div class="container">
-  <div class="row d-flex justify-content-center">
-    <div class="col-4">
-    <div class="card-header"> <b>{m.quote_Content}</b> </div>
-    </div>
-    <div class="col-6">
+      <Container>
+      <Col xs="6">
+    <div className="m-1">
+    <div class=" col -sm card p-0 rounded box-shadow" >
+    <div class="card-header"><b>{m.quote_Content}</b> </div>
     <div class="card-body">
     <p> speaker : {m.speaker_Nmae}</p>
-   </div>    </div>
-    <div class="col-sm">
+    <div class=" p-2">
     <button type="button" className="btn btn-light" onClick={() => deleteItem(m.quote_ID)}><Trash2/></button>
-     <Link to = {`Edit/${m.quote_ID}`} className="btn btn-outline-primary" ><PencilSquare/> </Link> </div>
-  </div>
-</div>
-</div> 
+    <Link to = {`Edit/${m.quote_ID}`} className="btn btn-outline-primary" ><PencilSquare/> </Link> </div>
+    </div>
+    </div>
+    </div>
+    </Col>
+    </Container>
 
     )
-})
-} 
+    })
+    } 
             
         </div>
     )
+
 }

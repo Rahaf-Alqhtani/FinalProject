@@ -2,6 +2,8 @@ import axios from 'axios'
  import { React,useState,useEffect } from 'react'
  import {BrowserRouter as Router} from 'react-router-dom'
  import { useParams } from 'react-router-dom';
+ import  {Link} from  'react-router-dom';
+ import Container from 'react-bootstrap/Container'
 
 
 export default function Edit(props) {
@@ -10,7 +12,7 @@ export default function Edit(props) {
     const {id} = useParams();
 
     const [quote,setquote]=useState("")
-const [speaker,setspeaker]=useState("")
+    const [speaker,setspeaker]=useState("")
         useEffect(() => {
         getbyId();
        // EditbyID();
@@ -23,7 +25,7 @@ const [speaker,setspeaker]=useState("")
         .then((resopns)=>{
          console.log(resopns.data)
           setquote(resopns.data. quote_Content)
-         setspeaker(resopns.data.speaker_Nmae)
+          setspeaker(resopns.data.speaker_Nmae)
 
          setitem(resopns.data)
         })
@@ -49,21 +51,24 @@ const body = {
     // const EditbyID=(id)=>{
 
     return (
+        <Container>
         <div className="m-5 quote">
         <h1>Edit</h1>
            <form>
             <div class="mb-3">
                 <label  class="form-label"> Quote</label>
                 <input class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value = {quote} onChange ={(e)=>setquote(e.target.value)}/>
-              
             </div>
             <div class="mb-3">
                 <label  class="form-label">Speaker</label>
                 <input  class="form-control" id="exampleInputPassword1" value = {speaker} onChange ={(e)=>setspeaker(e.target.value)}/>
             </div>
-            <button type="submit" class="btn btn-primary"  onClick = {Update}>Submit</button>
+            <Link to = {`/Get`} className="btn btn-primary" onClick = {Update}> Submit </Link>
+            
 </form>
             
         </div>
+        </Container>
+
     )
 }

@@ -21,7 +21,7 @@ const [speaker,setspeaker]=useState("")
 
 
     return (
-        <div className="m-5 quote">
+        <div className="m-5 quote" style={{ borderRadius: "20px"}}>
             <h1>Add</h1>
 <form>
             <div class="mb-3">

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hiro1\\Desktop\\PositiveQuote\\PositiveQuote.csproj": {}
+    "C:\\Users\\hiro1\\Desktop\\FinalProject\\BackEnd\\PositiveQuote.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hiro1\\Desktop\\PositiveQuote\\PositiveQuote.csproj": {
+    "C:\\Users\\hiro1\\Desktop\\FinalProject\\BackEnd\\PositiveQuote.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hiro1\\Desktop\\PositiveQuote\\PositiveQuote.csproj",
+        "projectUniqueName": "C:\\Users\\hiro1\\Desktop\\FinalProject\\BackEnd\\PositiveQuote.csproj",
         "projectName": "PositiveQuote",
-        "projectPath": "C:\\Users\\hiro1\\Desktop\\PositiveQuote\\PositiveQuote.csproj",
+        "projectPath": "C:\\Users\\hiro1\\Desktop\\FinalProject\\BackEnd\\PositiveQuote.csproj",
         "packagesPath": "C:\\Users\\hiro1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hiro1\\Desktop\\PositiveQuote\\obj\\",
+        "outputPath": "C:\\Users\\hiro1\\Desktop\\FinalProject\\BackEnd\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hiro1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Azure.Extensions.AspNetCore.Configuration.Secrets": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.2.2, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.7, )"
@@ -95,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
