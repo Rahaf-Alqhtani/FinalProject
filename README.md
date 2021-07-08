@@ -11,8 +11,6 @@
   <div dir=rtl></div>
 
   # DEMO
-   <img src="LoginPage.png"  width="500">
-   <img src="HomePage.png"  width="500">
 
  ## Set up
  - visual studio code
