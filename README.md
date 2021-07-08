@@ -1,8 +1,19 @@
-# App Name : Positive Quotes
+   <div dir="rtl" align="Center" >
+   <img src="https://i.ibb.co/SV2BSn5/tuwaiq.png" alt="Tuwaiq" style="center"      width ="200">
+   </div> 
+   <br>
+   <br>
+  
+  #  <div dir="rtl" align="Center" > App Name : Positive Quotes  </div>
+
  ##  Introduction
+ This project is to display a collection of positive quotes.
   <div dir=rtl></div>
 
   # DEMO
+   <img src="LoginPage.png"  width="500">
+   <img src="HomePage.png"  width="500">
+
  ## Set up
  - visual studio code
  -  node Js
@@ -21,7 +32,7 @@
 - React Bootstrap
 ##  Back-End
 **Database**
-- SQL Server -code first Approch
+- SQL Server -code first Approchg
 
 **ASP. NET**
 - ASP Web Application API
