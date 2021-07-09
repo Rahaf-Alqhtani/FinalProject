@@ -20,7 +20,7 @@
 - npm i  react-Facebook-login
 - npm i axios
 - npm i bootstrap
-- ASP.NET API
+- API
 ##  Front-End
 - React
 - HTML
