@@ -20,7 +20,7 @@
 - npm i  react-Facebook-login
 - npm i axios
 - npm i bootstrap
-- API [https://positivequoteapi.azurewebsites.net]
+- ASP.NET API
 ##  Front-End
 - React
 - HTML
@@ -34,7 +34,7 @@
 
 **ASP. NET**
 - ASP Web Application API
-- Deploy In Azure
+
 ###  Author
  Rahaf Alqhtani
 ##
